@@ -1,8 +1,9 @@
-# Bem Vindi ao Transforma-lab!
+# Bem _Vindi_ ao Transforma-lab!
 
 O Transforma-lab é um repositório de exercícios para auxílio na formação de novos vindianos do time de engenharia.
 Os exercícios são contruídos como uma derivação de TDD (Test Driven Development), começando da etapa RED - onde os testes já estão implementados, mas estão falhando.
-A base de exercícios é construída colaborativamente pelos funcionários, para participar desse processo leia a seção [Como colaborar]().
+A base de exercícios é construída colaborativamente pelos funcionários, para participar desse processo leia a seção [Como colaborar](https://github.com/vindi/transforma-lab#como-colaborar-%EF%B8%8F).
+
 
 ## Por onde começar? :computer:
 
@@ -28,10 +29,12 @@ A estrutura de cada exercício é a seguinte:
 
 ## Como colaborar 👷🏾‍♀️
 
-- Construa um exercício que siga a estrutura descrita na seção [Sobre o formato dos exercícios]()
+- Construa um exercício que siga a estrutura descrita na seção [Sobre o formato dos exercícios](https://github.com/vindi/transforma-lab#sobre-o-formato-dos-exerc%C3%ADcios)
 
 - Abra um Pull Request 
 
 Existe um template com pontos que devem ser preenchidos
 Ele será revisado pelos CODEOWNERS
+
+- Sugestões de melhorias podem ser feitas diretamente aos CODEOWNERS via slack.
 
