@@ -36,13 +36,16 @@ A estrutura de cada exercício é a seguinte:
 
 ## Como colaborar 👷🏾‍♀️
 
+- Crie uma branch a partir da master;
+
 - Construa um exercício que siga a estrutura descrita na seção [Sobre o formato dos exercícios](https://github.com/vindi/transforma-lab#sobre-o-formato-dos-exerc%C3%ADcios);
+  - Exemplo https://github.com/vindi/transforma-lab/tree/master/media_tres_numeros
 
 - Abra um Pull Request;
 
-Existe um template com pontos que devem ser preenchidos
+  - Existe um template com pontos que devem ser preenchidos
 
-Ele será revisado pelos CODEOWNERS
+  - Ele será revisado pelos CODEOWNERS
 
 - Sugestões de melhorias podem ser feitas diretamente aos CODEOWNERS via slack;
 
