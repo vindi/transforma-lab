@@ -2,6 +2,8 @@
 
 O Transforma-lab é um repositório de exercícios para auxílio na formação de novos vindianos do time de engenharia.
 
+Inspirado no formato de exercícios da plataforma [code_saga](https://codesaga.com.br/) da [Campus Code](https://www.campuscode.com.br/)
+
 Os exercícios são contruídos como uma derivação de TDD (Test Driven Development), começando da etapa RED - onde os testes já estão implementados, mas estão falhando.
 
 A base de exercícios é construída colaborativamente pelos funcionários, para participar desse processo leia a seção [Como colaborar](https://github.com/vindi/transforma-lab#como-colaborar-%EF%B8%8F).
