@@ -11,11 +11,58 @@ A base de exercícios é construída colaborativamente pelos funcionários, para
 
 ## Por onde começar? :computer:
 
-Para iniciar, é necessária uma introdução sobre os assuntos: TDD e testes ruby com RSPEC.
+<details>
+<summary>Instalando Git</summary>
 
-O segundo passo é realizar o fork desse repositório, já que a proposta é que cada pessoa tenha um versionamento de suas soluções desses exercícios.
+```
+sudo apt-get update
+```
+```
+sudo apt-get install git-all
+```
+
+</details>
+
+
+<details>
+<summary>Instalando ruby com rbenv</summary>
+
+```
+sudo apt-get update
+```
+```
+sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+```
+```
+sudo apt-get install git
+```
+```
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+```
+```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+```
+```
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+```
+```
+source ~/.bashrc
+```
+```
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+```
+rbenv install 2.7.2
+```
+
+</details>
+
+### Fork
+
+Já que a proposta é que cada pessoa tenha um versionamento de suas soluções desses exercícios, o primeiro passo é realizar o fork desse repositório.
 
 _Obs: Esse repositório será abastecido gradativamente e esse fork precisará ser atualizado._
+
 
 ## Sobre o formato dos exercícios
 
