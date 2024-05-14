@@ -6,8 +6,8 @@ describe 'Aprovado ou reprovado' do
     expect(media(7, 6)).to eq("aprovado")
   end
 
-  it 'deve calcular a média de 2 números negativos e retornar erro' do
-    expect(media(-3,-5)).to eq("nota inválida")
+  it 'deve calcular a média de 2 números negativos e retornar nota inválida' do
+    expect(media(-0.1,8)).to eq("nota inválida")
   end
 
   it 'deve calcular média de 2 números positivos e retornar reprovado' do
@@ -15,6 +15,18 @@ describe 'Aprovado ou reprovado' do
   end
 
   it 'deve calcular média de 2 números positivos maior que 10 e retornar nota inválida' do
-    expect(media(5,12)).to eq("nota inválida")
+    expect(media(10.1,10)).to eq("nota inválida")
+  end
+
+  it 'deve calcular média de 2 números positivos e retornar reprovado' do 
+    expect(media(5.9,6)).to eq("reprovado")
+  end
+
+  it 'deve calcular média de 2 números positivos e retornar reprovado' do 
+    expect(media(0,0)).to eq("reprovado")
+  end
+
+  it 'deve calcular média de 2 números positivos e retornar aprovado' do 
+    expect(media(10,10)).to eq("aprovado")
   end
 end
