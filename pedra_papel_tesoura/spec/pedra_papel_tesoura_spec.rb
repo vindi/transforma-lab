@@ -27,7 +27,7 @@ describe 'Pedra, Papel e Tesoura' do
   end
 
   it 'deve ter um cenário de vitória do jogador quando usa papel contra pedra' do
-    expect(jogar('papel', 'pedra')).to eq('Você ganhou - papel vence contra pedra”')
+    expect(jogar('papel', 'pedra')).to eq('Você ganhou - papel vence contra pedra')
   end
 
   it 'deve ter um cenário de vitória do jogador quando usa tesoura contra papel' do
@@ -35,6 +35,6 @@ describe 'Pedra, Papel e Tesoura' do
   end
 
   it 'deve ter um cenário de vitória do jogador quando usa pedra contra tesoura' do
-    expect(jogar('pedra', 'tesoura')).to eq('Você ganhou - pedra vence contra tesoura”')
+    expect(jogar('pedra', 'tesoura')).to eq('Você ganhou - pedra vence contra tesoura')
   end
 end
