@@ -2,9 +2,9 @@
 
 ## Sobre o exercício
 Escrever um método "media" que deve receber duas notas, calcular a média e retornar os seguintes cenários:
-"aprovado" caso a média seja maior ou igual a 6.
-"reprovado" caso a média seja menor que 6.
-As notas devem ser entre 0 e 10, caso contrário retorne "nota inválida".
+- "aprovado" caso a média seja maior ou igual a 6;
+- "reprovado" caso a média seja menor que 6;
+- As notas devem ser entre 0 e 10, caso contrário retorne "nota inválida".
 
 ## Para começar
 - Abra o terminal;
