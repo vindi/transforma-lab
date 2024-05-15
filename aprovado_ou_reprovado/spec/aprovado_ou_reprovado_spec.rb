@@ -21,11 +21,11 @@ describe 'Aprovado ou reprovado' do
   end
 
   context 'Deve calcular a média de 2 números positivos e retornar reprovado' do
-    it 'Quando a média for o máximo para retornar reprovado' do 
+    it 'Quando a média for o máximo para retornar reprovado' do
       expect(media(5.9,6)).to eq('reprovado')
     end
 
-    it 'Quando n1 ou n2 for igual a 0' do 
+    it 'Quando n1 ou n2 for igual a 0' do
       expect(media(0,0)).to eq('reprovado')
     end
   end
@@ -35,7 +35,7 @@ describe 'Aprovado ou reprovado' do
       expect(media(6, 6)).to eq('aprovado')
     end
 
-    it 'Quando n1 ou n2 for igual a 10' do 
+    it 'Quando n1 ou n2 for igual a 10' do
       expect(media(10,10)).to eq('aprovado')
     end
   end
