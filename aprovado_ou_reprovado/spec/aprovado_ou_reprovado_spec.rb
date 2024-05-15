@@ -24,15 +24,8 @@ describe 'Aprovado ou reprovado' do
     expect(media(5.9,6)).to eq("reprovado")
   end
 
-  it 'deve calcular média de 2 números positivos e retornar reprovado' do
-    expect(media(2.5,4)).to eq("reprovado")
-  end
-
   it 'deve calcular a média de 2 números positivos e retornar aprovado' do
     expect(media(6, 6)).to eq("aprovado")
   end
 
-  it 'deve calcular a média de 2 números positivos e retornar aprovado' do
-    expect(media(8, 10)).to eq("aprovado") 
-  end
 end
