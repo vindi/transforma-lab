@@ -10,4 +10,4 @@ Escrever um método que deve receber três números e retornar a média simples 
 - Execute o comando `rspec` (nesse ponto, várias falhas devem aparecer na sua tela);
 - No arquivo `lib/media_tres_numeros.rb`, implemente o método `media`;
 - Reexecute o comando `rspec`;
-- Repita esse processo até que todos os casos de teste sejam satisfeitos;
+- Repita esse processo até que todos os casos de teste sejam satisfeitos.
