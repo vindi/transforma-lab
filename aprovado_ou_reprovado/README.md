@@ -13,4 +13,4 @@ As notas devem ser entre 0 e 10, caso contrário retorne "nota inválida".
 - Execute o comando `rspec` (nesse ponto, várias falhas devem aparecer na sua tela);
 - No arquivo `lib/aprovado_ou_reprovado.rb`, implemente o método `media`;
 - Reexecute o comando `rspec`;
-- Repita esse processo até que todos os casos de teste sejam satisfeitos;
+- Repita esse processo até que todos os casos de teste sejam satisfeitos.
