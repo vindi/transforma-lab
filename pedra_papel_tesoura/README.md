@@ -12,5 +12,5 @@ Execute o comando `config/setup`;
 Execute o comando `rspec` (nesse ponto, várias falhas devem aparecer na sua tela);
 No arquivo `lib/pedra_papel_tesoura.rb`, implemente o método `jogar`;
 Reexecute o comando `rspec`;
-Repita esse processo até que todos os casos de teste sejam satisfeitos;
+Repita esse processo até que todos os casos de teste sejam satisfeitos.
 
