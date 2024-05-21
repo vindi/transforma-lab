@@ -3,7 +3,7 @@
 ## Sobre o exercício
 Escrever um método que deve receber dois valores entre as opções de `pedra`, `papel` ou `tesoura`.
 
-Deve seguir a mesma [regra do jogo](https://cienciahoje.org.br/artigo/pedra-papel-ou-tesoura/#:~:text=Regras%20b%C3%A1sicas%3A%20dado%20um%20sinal,que%20introduzimos%20foi%20ganhar%2Fperder.) e retornar um resultado do ponto de vista do jogador(primeiro parâmetro), retornando uma mensagem como “Você perdeu - pedra perde contra papel”, “O jogo empatou, ambos usaram pedra” ou “Você ganhou - papel vence contra pedra”.
+Deve seguir a mesma [regra do jogo](https://cienciahoje.org.br/artigo/pedra-papel-ou-tesoura/#:~:text=Regras%20b%C3%A1sicas%3A%20dado%20um%20sinal,que%20introduzimos%20foi%20ganhar%2Fperder.) e retornar um resultado do ponto de vista do jogador (primeiro parâmetro), retornando uma mensagem como “Você perdeu - pedra perde contra papel”, “O jogo empatou, ambos usaram pedra” ou “Você ganhou - papel vence contra pedra”.
 
 ## Para começar
 Abra o terminal;
