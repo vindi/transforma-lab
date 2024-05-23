@@ -4,7 +4,7 @@
 Escrever um método que deve receber um número inteiro e imprimir todos os números pares, começando pelo 0 até o valor recebido pelo método.
 
 Regras:
-- Retorne "nota inválida" caso o valor de entrada não seja um número;
+- Retorne "valor inválido" caso o valor de entrada não seja um número;
 - Os números pares devem ser <b>impressos</b> um abaixo do outro;
 - Nesse exercício vamos considerar apenas entradas de valor positivo.
 
