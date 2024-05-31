@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+include FileUtils
+
+chdir File.expand_path('..', __dir__) do
+  p "---- Configurando ambiente ----"
+
+  system('gem install bundler') 
+  system('bundle check') || system!('bundle install')
+
+  p "\n---- Tudo pronto! ----"
+end
