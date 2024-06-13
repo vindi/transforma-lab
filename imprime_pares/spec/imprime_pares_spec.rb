@@ -2,7 +2,7 @@ require 'spec_base'
 require 'imprime_pares'
 
 describe 'Pares' do
-  it 'Retorne valor inválido quando o valor de entrada não for um número' do
+  it 'Retorne valor inválido quando o valor de entrada não for um inteiro' do
     expect(imprime_pares("5")).to eq('valor inválido')
   end
 
