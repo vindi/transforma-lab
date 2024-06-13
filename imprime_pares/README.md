@@ -1,4 +1,4 @@
-# Imprime pares
+# Imprime números pares
 
 ## Sobre o exercício
 Escrever um método chamado `imprime_pares` que deve receber um número inteiro e imprimir todos os números pares, começando pelo 0 até o valor recebido pelo método.
