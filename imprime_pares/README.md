@@ -4,7 +4,7 @@
 Escrever um método chamado `imprime_pares` que deve receber um número inteiro e imprimir todos os números pares, começando pelo 0 até o valor recebido pelo método.
 
 Regras:
-- Retorne "valor inválido" caso o valor de entrada não seja um número;
+- Retorne "valor inválido" caso o valor de entrada não seja um número inteiro ou seja um número negativo;
 - Os números pares devem ser <b>impressos</b> um abaixo do outro;
 - Nesse exercício vamos considerar apenas entradas de valor positivo.
 

@@ -2,20 +2,20 @@ require 'spec_base'
 require 'imprime_pares'
 
 describe 'Pares' do
-  it 'Retorne valor inválido quando o valor de entrada não for um inteiro' do
-    expect(imprime_pares("5")).to eq('valor inválido')
+  context 'Deve retornar valor inválido' do
+    it 'quando o valor de entrada não for um inteiro' do
+      expect(imprime_pares("5")).to eq('valor inválido')
+    end
+
+    it 'quando o valor de entrada for um número negativo' do
+      expect(imprime_pares(-4)).to eq('valor inválido')
+    end
   end
 
   it 'Imprime somente 0' do
     expect {
       imprime_pares(0)
     }.to output("0\n").to_stdout
-  end
-
-  it 'Não imprime nada' do
-    expect {
-      imprime_pares(-4)
-    }.to output("").to_stdout
   end
 
   it 'Imprime números pares até 15' do
